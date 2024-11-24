@@ -1,0 +1,149 @@
+.p-5 {
+  text-align: center;
+  background: linear-gradient(45deg, #ffc4c9, #b1e3ff); /* ไล่สีพื้นหลัง */
+  padding: 4rem; /* ระยะห่างภายใน */
+  border-radius: 20px; /* ขอบมน */
+  min-height: 300px; /* เพิ่มความสูงขั้นต่ำ */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+}
+
+.p-5 h1 {
+  font-family: 'Arial', sans-serif; /* ฟอนต์แบบทันสมัย */
+  font-size: 3rem; /* ขนาดฟอนต์ใหญ่ */
+  color: #333; /* สีตัวอักษร */
+  margin-bottom: 1rem; /* ระยะห่างด้านล่าง */
+}
+
+.p-5 p {
+  font-size: 1.25rem; /* ขนาดฟอนต์ย่อหน้า */
+  color: #555; /* สีตัวอักษรย่อหน้า */
+  margin-bottom: 2rem; /* ระยะห่างระหว่างย่อหน้าและปุ่ม */
+}
+
+.btn-sh {
+  background: linear-gradient(90deg, #ff5f6d, #ffc371); /* ไล่สีปุ่ม */
+  border: none; /* ไม่มีเส้นขอบ */
+  border-radius: 30px; /* มุมปุ่มโค้งมน */
+  font-size: 1.2rem; /* ขนาดตัวอักษร */
+  font-weight: bold; /* ตัวหนา */
+  padding: 12px 24px; /* ระยะห่างภายในปุ่ม */
+  color: white; /* สีตัวอักษร */
+  text-transform: uppercase; /* ตัวอักษรพิมพ์ใหญ่ */
+  text-decoration: none; /* ไม่มีเส้นใต้ */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* เงาปุ่ม */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* เพิ่มเอฟเฟกต์ */
+}
+
+.btn-sh:hover {
+  background: linear-gradient(90deg, #ff6e7f, #fbbd61); /* เปลี่ยนสีเมื่อ hover */
+  transform: scale(1.1); /* ขยายขนาด */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* เพิ่มเงา */
+}
+
+
+  
+  #featured-2 h2 {
+    font-family: 'Arial', sans-serif; /* ตั้งฟอนต์ */
+    font-size: 2rem; /* ขนาดฟอนต์ */
+    color: #D80032; /* เปลี่ยนสีข้อความ */
+    text-align: center; /* จัดข้อความให้อยู่กึ่งกลาง */
+    margin-bottom: 30px; /* เพิ่มระยะห่างด้านล่าง */
+    margin-top: -20px;
+  }
+  
+
+/* ปรับขนาด Card */
+.custom-card {
+    width: 80%; /* กำหนดความกว้างของ Card */
+    height: 400px; /* ปรับความสูงของ Card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* ซ่อนเนื้อหาเกินกรอบ */
+    border-radius: 15px; /* มุมมน */
+}
+
+/*สไลค์หน้าแรก*/
+.custom-card img {
+    height: 60%; /* ให้รูปครอบคลุม 60% ของ Card */
+    object-fit: cover; /* จัดรูปภาพให้พอดี */
+}
+.rounded-circle {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px; /* เพื่อจัดตรงกลางและเว้นระยะ */
+}
+
+.feature {
+  background-color: #ffe4e9; /* เพิ่มพื้นหลังอ่อน ๆ สีฟ้า */
+  border-radius: 10px; /* มุมโค้งมน */
+  padding: 20px; /* ระยะห่างภายใน */
+  height: 350px; /* กำหนดความสูง */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* จัดให้อยู่ระหว่างบน-ล่าง */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้กับแต่ละฟีเจอร์ */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-10px); /* เคลื่อนย้ายเมื่อ hover */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* เพิ่มเงาเมื่อ hover */
+}
+
+.feature-icon img {
+  border-radius: 50%; /* ทำให้รูปเป็นวงกลม */
+  margin-bottom: 15px;
+  border: 3px solid #D80032; /* เพิ่มเส้นขอบสีฟ้า */
+}
+
+
+.feature h2 {
+  font-size: 1.5rem;
+  
+  color: #FF407D;
+  margin-bottom: 15px;
+}
+.feature p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+  flex-grow: 1; /* ให้ข้อความยืดเต็มความสูง */
+}
+#featured-3 h2 {
+  font-family: 'Arial', sans-serif; /* ตั้งฟอนต์ */
+  font-size: 2rem; /* ขนาดฟอนต์ */
+  color: #D80032; /* เปลี่ยนสีข้อความ */
+  text-align: center; /* จัดข้อความให้อยู่กึ่งกลาง */
+  margin-bottom: 10px; /* เพิ่มระยะห่างด้านล่าง */
+}
+
+
+
+/*Footer*/
+footer {
+    width: 100%;
+    background: linear-gradient(45deg, #b1e3ff, #ffc4c9); /* ไล่สีพื้นหลัง */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+    padding: 20px 0; /* เพิ่มระยะห่างด้านบนและล่าง */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเล็กน้อย */
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #00aced;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.footer-content a:hover {
+    color: #fff;
+}
+
+
+
+
+
+

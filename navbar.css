@@ -1,0 +1,36 @@
+.custom-brand {
+    font-size: 2rem; /* เพิ่มขนาดตัวอักษร */
+    font-weight: bold; /* ทำให้ตัวอักษรหนา */
+    color: #ff3b3b; /* สีที่เด่น เช่น สีแดงอมส้ม */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* เงาให้ดูนูน */
+    font-family: 'Arial', sans-serif; /* เปลี่ยนฟอนต์หากต้องการ */
+    text-transform: uppercase; /* ทำให้ตัวอักษรเป็นตัวพิมพ์ใหญ่ */
+}
+
+/* ทำให้ข้อความเปลี่ยนสีเมื่อโฮเวอร์ */
+.custom-brand:hover {
+    color: #ff6f61; /* สีแดงเข้มขึ้นเมื่อโฮเวอร์ */
+}
+
+.navbar {
+    background: linear-gradient(45deg, #b1e3ff, #ffc4c9); /* ไล่สีพื้นหลัง */
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.navbar img {
+    margin-left: 10px;
+    margin-right: 10px;  /* เพิ่มระยะห่างทางขวาของ logo */
+}
+.nav-link {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold; /* ทำให้ตัวอักษรหนา */
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffcc00; /* เปลี่ยนสีเมื่อ hover */
+}
